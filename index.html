@@ -5,12 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./favicon/youtube.png">
-    <link rel="stylesheet" href="./styles.css">  
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/video.css">
     <title>YouTube Clone</title>
 </head>
 
 <body>
-    <input class="search-bar" type="text" placeholder="Search">
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="./navbar-search/hamburger-menu.svg" alt="hamburger-menu">
+            <img class="yt-logo" src="./navbar-search/youtube-logo.svg" alt="yt-logo">
+            <span class="country-code">IN</span>
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-icon-button"><img class="search-bar-icon" src="./navbar-search/search.svg" alt="search-icon">
+            </button>
+            <button class="voice-icon-button"><img class="voice-icon" src="./navbar-search/voice-search-icon.svg" alt="voice-search-icon"></button>
+        </div>
+        <div class="right-section">
+            <button class="upload-icon-button"><img class="upload-icon" src="./navbar-search/upload.svg" alt="upload-icon"></button>
+            <button class="notification-icon-button"><img class="notification-icon" src="./navbar-search/notifications.svg" alt="notification-icon"></button>
+            <img class="profile-picture-user" src="./channel-logo/IMG_20230816_002603.jpg" alt="profile-picture">
+        </div>
+    </div>
+
     <div class="video-grid">
         <div class="video-preview">
             <div class="thumbnail-row"><img class="thumbnail" src="./thumbnail/thumbnail-1.webp" alt=""></div>
