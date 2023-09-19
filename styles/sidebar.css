@@ -8,20 +8,25 @@
     left: 0;
     background-color: white;
     width: 72px;
+    z-index: 200;
+    padding-top: 5px;
 }
 
 .sidebar-link {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 30px;
-    font-family: Roboto, Arial;
+    align-items: center;
+    margin-bottom: 10px;
     font-size: 10px;
     text-align: center;
     cursor: pointer;
+    background-color: white;
+    height: 70px;
 }
-
+.sidebar-link:hover{
+    background-color: rgb(234, 234, 234);
+}
 .sidebar-img {
-    margin-top: 20px;
     height: 22px;
 }

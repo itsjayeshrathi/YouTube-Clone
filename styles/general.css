@@ -1,15 +1,16 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
  body {
-     background-color:#f9f9f9; 
+     background-color: #f9f9f9;
+     font-family: Roboto, Arial;
      margin: 0px;
      padding-top: 80px;
-     padding-left: 80px;
+     padding-left: 96px;
+     padding-right: 24px;
  }
 
  p {
      color: black;
-     font-family: Roboto, Arial;
      margin-top: 0;
      margin-bottom: 0;
  }
